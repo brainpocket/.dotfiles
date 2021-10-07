@@ -34,6 +34,8 @@ imap <PageDown> <nop>
 nmap <PageUp> <nop>
 nmap <PageDown> <nop>
 
+inoremap jk <ESC>
+
 " reload vimrc config file
 nmap <leader>so :so ~/.ideavimrc
 
