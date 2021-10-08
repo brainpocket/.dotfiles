@@ -64,6 +64,8 @@ nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
 
+" fast way to escape insert mode
+inoremap jk <ESC>
 
 " fast saving
 nmap <leader>w :w!<cr>
